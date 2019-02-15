@@ -1,0 +1,2 @@
+CREATE VIEW student_supervisor_erf AS 
+select * from student_supervisor_all where degree ='ERF'

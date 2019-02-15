@@ -1,0 +1,2 @@
+
+SELECT person_id, firstnames,surname,degree,institution,supervisor,thesis_title,start_date,currently_registered,graduation_date FROM students RIGHT JOIN people ON students.person_id = people.id where (degree <> '') order by start_date asc 
